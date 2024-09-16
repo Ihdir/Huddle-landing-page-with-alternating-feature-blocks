@@ -128,7 +128,7 @@ h2 {
 }
 
 .box1-image img, .box2-image img, .box3-image img {
-    max-width: 12.5rem; /* 20rem */
+    max-width: 20rem; /* 20rem */
 }
 
 footer {
