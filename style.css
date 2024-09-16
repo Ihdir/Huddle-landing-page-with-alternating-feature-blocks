@@ -16,24 +16,24 @@ main {
 
 nav {
     display: flex;
-    padding: 40px;
+    padding: 2.5rem; /* 40px -> 2.5rem */
     align-items: center;
     justify-content: space-between;
-    margin-inline: 20px;
+    margin-inline: 1.25rem; /* 20px -> 1.25rem */
 }
 
 .nav-btn {
-    max-width:20rem;
-    padding: 15px 60px;
-    margin-top: 20px;
-    margin-inline-start: 10px;
+    max-width: 20rem; /* 20rem */
+    padding: 0.9375rem 3.75rem; /* 15px 60px -> 0.9375rem 3.75rem */
+    margin-top: 1.25rem; /* 20px -> 1.25rem */
+    margin-inline-start: 0.625rem; /* 10px -> 0.625rem */
     background-color: white;
-    border-radius: 40px;
+    border-radius: 2.5rem; /* 40px -> 2.5rem */
     border: none;
     font-family: 'Open Sans';
-    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0.3125rem 0.3125rem 0.625rem rgba(0, 0, 0, 0.1); /* 0.5rem 0.5rem 1rem */
     cursor: pointer;
-    color: hsl(192, 100%, 9%) !important; /* Initial text color */
+    color: hsl(192, 100%, 9%) !important;
     font-size: 1rem;
 }
 
@@ -51,41 +51,41 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px;
-    margin-inline: 20px;
-    margin-bottom: 60px;
+    padding: 2.5rem; /* 40px -> 2.5rem */
+    margin-inline: 1.25rem; /* 20px -> 1.25rem */
+    margin-bottom: 3.75rem; /* 60px -> 3.75rem */
     font-family: 'Open Sans';
 }
 
 .right img {
-    max-width: 40rem;
+    max-width: 40rem; /* 40rem */
 }
 
 .left h1 {
     font-family: 'Poppins';
     line-height: 1.6;
     font-size: 2.5rem;
-    color:  hsl(192, 100%, 9%);
-    padding: 20px 0px;
+    color: hsl(192, 100%, 9%);
+    padding: 1.25rem 0rem; /* 20px -> 1.25rem */
 }
 
 .left p {
     font-size: 1.2rem;
-    color:  hsl(192, 100%, 9%);
+    color: hsl(192, 100%, 9%);
 }
 
 .main-btn {
-    max-width:20rem;
-    padding: 15px 50px;
-    margin-top: 20px;
-    margin-inline-start: 10px;
+    max-width: 20rem; /* 20rem */
+    padding: 0.9375rem 3.125rem; /* 15px 50px -> 0.9375rem 3.125rem */
+    margin-top: 1.25rem; /* 20px -> 1.25rem */
+    margin-inline-start: 0.625rem; /* 10px -> 0.625rem */
     background-color: hsl(322, 100%, 66%);
-    border-radius: 40px;
+    border-radius: 2.5rem; /* 40px -> 2.5rem */
     border: none;
     color: white;
     cursor: pointer;
     font-weight: bold;
-    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0.3125rem 0.3125rem 0.625rem rgba(0, 0, 0, 0.1); /* 0.5rem 0.5rem 1rem */
 }
 
 .main-btn:hover {
@@ -98,43 +98,43 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 20px;
+    padding: 3.125rem 1.25rem; /* 50px 20px -> 3.125rem 1.25rem */
     min-height: 100vh;
 }
 
 .block {
-    border-radius: 20px;
-    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    border-radius: 1.25rem; /* 20px -> 1.25rem */
+    box-shadow: 0.3125rem 0.3125rem 0.625rem rgba(0, 0, 0, 0.1); /* 0.5rem 0.5rem 1rem */
+    margin: 1.25rem; /* 20px -> 1.25rem */
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    padding: 1.875rem; /* 30px -> 1.875rem */
     color: hsl(208, 11%, 55%);
 }
 
 .block p {
-    padding: 20px 40px;
-    margin-inline: 60px;
-    margin-inline-end: 80px;
+    padding: 1.25rem 2.5rem; /* 20px 40px -> 1.25rem 2.5rem */
+    margin-inline: 3.75rem; /* 60px -> 3.75rem */
+    margin-inline-end: 5rem; /* 80px -> 5rem */
     line-height: 1.4;
 }
 
 h2 {
     font-size: 2rem;
-    margin-inline-start: 100px;
+    margin-inline-start: 6.25rem; /* 100px -> 6.25rem */
     color: hsl(192, 100%, 9%);
     font-family: 'Poppins';
 }
 
 .box1-image img, .box2-image img, .box3-image img {
-    max-width: 20rem;
+    max-width: 12.5rem; /* 20rem */
 }
 
 footer {
     background-color: hsl(192, 100%, 9%);
-    padding: 40px ;
-    padding-top: 100px;
+    padding: 2.5rem; /* 40px -> 2.5rem */
+    padding-top: 6.25rem; /* 100px -> 6.25rem */
     color: white;
     display: flex;
     justify-content: space-between;
@@ -142,46 +142,29 @@ footer {
 }
 
 .footer-text {
-    font-family: 'Open Sans';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
-    margin-inline-start:  45px;
+    margin-inline-start: 2.8125rem; /* 45px -> 2.8125rem */
 }
 
-.location {
-    padding: 20px;
+.location, .phone, .email {
+    padding: 1.25rem; /* 20px -> 1.25rem */
     display: flex;
-    gap: 20px;
-}
-
-.phone {
-    padding: 20px;
-    display: flex;
-    gap: 20px;
-}
-
-
-.email {
-    padding: 20px;
-    display: flex;    
-    gap: 20px;
-}
-
-.info-block2 {
-    line-height: 4;
-}
-
-.info-block3 {
-    line-height: 4;
+    gap: 1.25rem; /* 20px -> 1.25rem */
 }
 
 .info-block, .info-block2, .info-block3 {
-    margin-right: 40px; /* Adds space between the blocks horizontally */
+    margin-right: 2.5rem; /* 40px -> 2.5rem */
 }
 
-.social-icons img{
-    max-width: 150px;
-    margin-bottom: 100px;
+.info-block2, .info-block3 {
+    line-height: 4;
+}
+
+.social-icons img {
+    max-width: 9.375rem; /* 150px -> 9.375rem */
+    margin-bottom: 6.25rem; /* 100px -> 6.25rem */
 }
 
 .last-box {
@@ -191,41 +174,192 @@ footer {
     justify-content: center;
     text-align: center;
     background-color: #fff;
-    padding: 45px 15px;
+    padding: 2.8125rem 0.9375rem; /* 45px 15px -> 2.8125rem 0.9375rem */
     gap: 2rem;
-    transform: translateY(50px);
+    transform: translateY(3.125rem); /* 50px -> 3.125rem */
     width: 95%;
     margin-inline: auto;
-    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.2);
-    border-radius: 15px;
-    max-width: 700px;
+    box-shadow: 0.3125rem 0.3125rem 3.125rem rgba(0, 0, 0, 0.2); /* 5px 5px 50px -> 0.3125rem 0.3125rem 3.125rem */
+    border-radius: 0.9375rem; /* 15px -> 0.9375rem */
+    max-width: 43.75rem; /* 700px -> 43.75rem */
 }
 
 .last-container {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 10px;
-    transform: translateX(-40px); /* Moves the text slightly to the left */
+    margin-bottom: 0.625rem; /* 10px -> 0.625rem */
+    transform: translateX(-2.5rem); /* 40px -> 2.5rem */
 }
 
 .last-btn {
-    background-color: hsl(322, 100%, 66%); /* Base background color */
-    color: white; /* Base text color */
-    padding: 15px 40px; /* Adjust padding for better button size */
-    border-radius: 30px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-weight: bold; /* Bold text */
-    font-size: 18px; /* Font size for the button text */
-    border: none; /* Remove default border */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
-    display: inline-block; /* Align button inline */
-    text-align: center; /* Center text inside button */
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 0.9375rem 2.5rem; /* 15px 40px -> 0.9375rem 2.5rem */
+    border-radius: 1.875rem; /* 30px -> 1.875rem */
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.125rem; /* 18px -> 1.125rem */
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    text-align: center;
 }
 
 .last-btn:hover {
-    background-color:hsl(323, 93%, 84%) ; /* Darker background on hover */
-    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    background-color: hsl(323, 93%, 84%);
+    transform: scale(1.05);
 }
 
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    /* 1. Main Background Image */
+    main {
+        background-image: url(./images/bg-hero-mobile.svg);
+    }
 
+    /* 2. Main Section Flex Direction */
+    .page1 {
+        flex-direction: column;
+        text-align: center; /* To center text in column */
+    }
+
+    .right img {
+        margin-top: 2rem;
+        max-width: 100%; /* To ensure the image scales properly */
+    }
+
+    /* 3. Flex Direction for Blocks */
+    .block {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .block img {
+        max-width: 100%; /* Ensure image fits within the container */
+    }
+
+    /* Specific adjustments for each block */
+    .block {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem; /* Adjust padding for smaller screens */
+    }
+
+    .block img {
+        max-width: 100%; /* Ensure image fits within the container */
+    }
+
+    .block h2 {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        text-align: center; /* Center align text */
+        margin: 0; /* Remove any extra margin */
+        padding: 0; /* Remove extra padding */
+        padding-top: 1.5rem;
+    }
+
+    .block p {
+        font-size: 1rem; /* Adjust font size if necessary */
+        text-align: center; /* Center align paragraph */
+        margin: 0; /* Remove unnecessary margin */
+        padding: 0.5rem 0; /* Add a suitable padding for spacing */
+    }
+
+    .block:nth-of-type(1) {
+        flex-direction: column;
+    }
+
+    .block:nth-of-type(1) img {
+        margin-bottom: 1rem; /* Space between image and text */
+    }
+
+    .block:nth-of-type(1) p {
+        text-align: center;
+        padding: 0.5rem; /* Reduced padding for text */
+    }
+
+    .block:nth-of-type(2) {
+        flex-direction: column;
+    }
+
+    .block:nth-of-type(2) p {
+        text-align: center;
+        padding: 0.5rem; /* Reduced padding for text */
+    }
+
+    .block:nth-of-type(2) img {
+        margin-top: 1rem; /* Space between text and image */
+    }
+
+    .block:nth-of-type(3) {
+        flex-direction: column;
+    }
+
+    .block:nth-of-type(3) img {
+        margin-bottom: 1rem; /* Space between image and text */
+    }
+
+    .block:nth-of-type(3) p {
+        text-align: center;
+        padding: 0.5rem; /* Reduced padding for text */
+    }
+
+    /* 4. Footer Info Blocks Flex Direction */
+    footer {
+        flex-direction: column;
+        align-items: center; /* Centering items in the footer */
+        text-align: left; /* Centering the footer text */
+    }
+
+    .location, .phone, .email {
+        flex-direction: column;
+        gap: 0.625rem; /* Adjust gap for better spacing */
+    }
+
+    .info-block, .info-block2, .info-block3 {
+        margin-right: 0; /* Remove margin-right for better centering */
+    }
+
+    .info-block2, .info-block3 {
+        margin-left: -13rem;
+        line-height: 3;
+    }
+
+    .info-block4 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    /* Remove unnecessary padding for social icons */
+    .social-icons img {
+        margin-bottom: 0rem; /* Adjust the margin to make the spacing less */
+    }
+
+    /* Adjust the layout for the nav logo and button */
+    nav {
+        flex-direction: row;
+        align-items: center; /* Center the logo and button */
+    }
+
+    .nav-btn {
+        padding: 0.5rem 2rem; /* Reduce padding for smaller height */
+        margin-top: -15px;
+        font-size: 0.9rem; /* Adjust font size to ensure text fits in one line */
+        max-width: 12rem; /* Adjust width if necessary to keep text on one line */
+    }
+
+    /* Ensure the text stays on one line */
+    .nav-btn p {
+        white-space: nowrap; /* Prevent text wrapping */
+        font-size: 0.9rem; /* Adjust font size to fit */
+    }
+
+    /* Optionally adjust the logo size */
+    .logo img {
+        max-width: 80%; /* Adjust as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 1rem; /* Space between logo and button */
+    }
+}
 
