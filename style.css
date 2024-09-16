@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+main {
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(./images/bg-hero-desktop.svg);
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 20px;
+}
+
+.nav-btn {
+    max-width:20rem;
+    padding: 15px 60px;
+    margin-top: 20px;
+    margin-inline-start: 10px;
+    background-color: white;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Open Sans';
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: hsl(192, 100%, 9%) !important; /* Initial text color */
+    font-size: 1rem;
+}
+
+.nav-btn p {
+    color: hsl(192, 100%, 9%);
+    font-weight: 700;
+}
+
+.nav-btn:hover {
+    color: hsl(208, 11%, 55%);
+    transition: 0.3s ease-in-out;
+}
+
+.page1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    margin-inline: 20px;
+    margin-bottom: 60px;
+    font-family: 'Open Sans';
+}
+
+.right img {
+    max-width: 40rem;
+}
+
+.left h1 {
+    font-family: 'Poppins';
+    line-height: 1.6;
+    font-size: 2.5rem;
+    color:  hsl(192, 100%, 9%);
+    padding: 20px 0px;
+}
+
+.left p {
+    font-size: 1.2rem;
+    color:  hsl(192, 100%, 9%);
+}
+
+.main-btn {
+    max-width:20rem;
+    padding: 15px 50px;
+    margin-top: 20px;
+    margin-inline-start: 10px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 40px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.main-btn:hover {
+    background-color: hsl(323, 93%, 84%);
+    transition: 0.3s ease-in-out;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    min-height: 100vh;
+}
+
+.block {
+    border-radius: 20px;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    color: hsl(208, 11%, 55%);
+}
+
+.block p {
+    padding: 20px 40px;
+    margin-inline: 60px;
+    margin-inline-end: 80px;
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-inline-start: 100px;
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins';
+}
+
+.box1-image img, .box2-image img, .box3-image img {
+    max-width: 20rem;
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    padding: 40px ;
+    padding-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: 'Open Sans';
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-inline-start:  45px;
+}
+
+.location {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.phone {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.email {
+    padding: 20px;
+    display: flex;    
+    gap: 20px;
+}
+
+.info-block2 {
+    line-height: 4;
+}
+
+.info-block3 {
+    line-height: 4;
+}
+
+.info-block, .info-block2, .info-block3 {
+    margin-right: 40px; /* Adds space between the blocks horizontally */
+}
+
+.social-icons img{
+    max-width: 150px;
+    margin-bottom: 100px;
+}
+
+.last-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 45px 15px;
+    gap: 2rem;
+    transform: translateY(50px);
+    width: 95%;
+    margin-inline: auto;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    max-width: 700px;
+}
+
+.last-container {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    transform: translateX(-40px); /* Moves the text slightly to the left */
+}
+
+.last-btn {
+    background-color: hsl(322, 100%, 66%); /* Base background color */
+    color: white; /* Base text color */
+    padding: 15px 40px; /* Adjust padding for better button size */
+    border-radius: 30px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-weight: bold; /* Bold text */
+    font-size: 18px; /* Font size for the button text */
+    border: none; /* Remove default border */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    display: inline-block; /* Align button inline */
+    text-align: center; /* Center text inside button */
+}
+
+.last-btn:hover {
+    background-color:hsl(323, 93%, 84%) ; /* Darker background on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+
+
